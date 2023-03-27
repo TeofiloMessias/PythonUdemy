@@ -1,1 +1,7 @@
-"""Tipos numericos de dados"""
+"""
+- Lipo numerico
+- Tipo float
+- Tipo booleano
+- Tipo String
+
+"""

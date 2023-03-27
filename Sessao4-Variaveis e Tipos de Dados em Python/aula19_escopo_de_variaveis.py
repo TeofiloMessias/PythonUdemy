@@ -42,4 +42,3 @@ if numero > 42:
     print(novo)
 
 print(novo)
-
