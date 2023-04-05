@@ -16,6 +16,8 @@ Ja em Python:
 
 As listas em Pyton são representadas por colchetes: []
 
+Listas são mutáveis: Ou seja elas podem mudar constantemente.
+
 type([])
 
 lista1 = [1, 99, 4, 27, 15, 22 ,3, 1, 44, 42, 27]
@@ -24,7 +26,7 @@ lista2 = ['G','e','e','k',' ', 'U','n','i','v','e','r','s','i','t','y']
 
 lista3 = []
 
-lsita4 = list(range(11))
+lista = list(range(11))
 
 lista5 = list('Geek University')
 
@@ -52,7 +54,7 @@ print(lista1)
 lista1.append(42)
 print(lista1)
 
-# OBS: Com apepend nos so conseguimos adicionar um elemento por vez
+# OBS: Com append nos so conseguimos adicionar um elemento por vez
 # lista.append(12, 34, 56) # Erro
 
 lista1.append([8, 3, 1]) # Coloca a lista como elemento único (sublista)
