@@ -1,0 +1,4 @@
+"""
+Módulo Collections  - Named Tuple
+
+"""
