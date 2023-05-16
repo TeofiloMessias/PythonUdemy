@@ -146,5 +146,5 @@ print(fora())
 print(fora())
 print(fora())
 
-print(dentro) # Não é reconhecida ( NamedError )
+# print(dentro)  # Não é reconhecida ( NamedError )
 
