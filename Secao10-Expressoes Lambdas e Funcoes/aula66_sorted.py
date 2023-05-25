@@ -1,7 +1,7 @@
 """
 Sorted
 
-OBS: Não confunda, apesar do nome, com a função sort\90 que já estudamos em Listas. O sort()
+OBS: Não confunda, apesar do nome, com a função sort\0 que já estudamos em Listas. O sort()
 só funciona em listas.
 
 Podemos utilizar o sorted() com qualquer interável.
