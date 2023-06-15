@@ -18,7 +18,7 @@ Imagine que temos uma classe chamada Pessoa, contendo
 um atributo privado chamado __nome e um método privado
 chamado __falar()
 
-Esses elementps privados só devem/deveria ser acessados
+Esses elementos privados só devem/deveria ser acessados
 dentro da classe. Mas Python não bloqueia este acesso
 fora da classe. Com Python acontece um fenômeno chamado
 Name mangling, que faz uma alteração na forma de se
