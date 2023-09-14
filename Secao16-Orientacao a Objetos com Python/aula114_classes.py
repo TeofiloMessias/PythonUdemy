@@ -20,7 +20,7 @@ Classes podem conter:
 
 Em Python para definir uma Classe utilizaos a palavra reservada class.
 
-OBS: Utilizamos a palavra 'pass' em Python qunado temos um bloco de código que ainda esta
+OBS: Utilizamos a palavra 'pass' em Python quando temos um bloco de código que ainda esta
 implementado.
 
 OBS: Quando nomeamos nossas classes em Python utilizamos por convenção o nome com inicial
@@ -30,7 +30,7 @@ maiúscilas, todas juntas
 Dica : Em computação não utilizamos: Acentuação, caracteres especiais, espaços ou similares
 para nomes de class, atributos,métodos,arquivos, diretórios e etc.
 
-OBS> Quando estamos pranejando um software e definimos quais classesteremos que ter no sistema, chamamos
+OBS> Quando estamos pranejando um software e definimos quais classes teremos que ter no sistema, chamamos
 estes objetos que serão mapeados para classes de entidades.
 """
 
@@ -45,8 +45,6 @@ class Produto:
 
 class usuario:
     pass
-
-
 
 lamp = Lampada()
 

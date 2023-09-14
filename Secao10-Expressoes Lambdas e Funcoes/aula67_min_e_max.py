@@ -118,4 +118,4 @@ for musica in musicas:
 
 for musica in musicas:
     if musica['tocou'] == min:
-        prin(musica['titulo'])
+        print(musica['titulo'])

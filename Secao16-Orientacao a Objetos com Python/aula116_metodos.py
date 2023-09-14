@@ -2,7 +2,7 @@
 POO- Métodos
 
 - Métodos (funções) -> Representam os comportamentos do objeto. Ou seja, as ações
-que este objeo pode realizar no seu sitema.
+que este objeto pode realizar no seu sitema.
 
 Em Python, dividimos os métodos, em 2 grupos: Métodos de instância
 e Método de Classe.
@@ -14,7 +14,7 @@ sua função é construir o objeto a partir da classe.
 
 OBS: Todo elemento em Pythonque inicia e finaliza com duplo underline é chamado de dunder (Double Underline)
 
-ATENÇÃO! Por mai que possamos criar nossas próprias funções utilizando dunder (underline no inicio e no fim)
+ATENÇÃO! Por mais que possamos criar nossas próprias funções utilizando dunder (underline no inicio e no fim)
 não é aconselhado. Python possui vários metodos com esta forma de nomeclatura e po ser que mudemos o comportamente
 dessas funções mágicas internas da linguagem. Então, evite ao máximo. De preferencia nunca o faça.
 
