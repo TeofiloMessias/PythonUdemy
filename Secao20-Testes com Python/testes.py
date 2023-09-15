@@ -1,6 +1,6 @@
 import unittest
 
-from atividades import comer, dormir
+from atividades import comer, dormir, eh_engracada
 
 class AtividadeTestes(unittest.TestCase):
 
@@ -15,7 +15,7 @@ class AtividadeTestes(unittest.TestCase):
         """Testando o retorno com comida gostosa."""
         self.assertEqual(
             comer(comida='pizza', eh_saudavel=False),
-            'Estou comendo pizza poque a gente so vive uma vez.'
+            'Estou comendo pizza porque a gente so vive uma vez.'
         )
     def test_dormindo_pouco(self):
         """Testando o retorno dormindo pouco."""
@@ -29,6 +29,12 @@ class AtividadeTestes(unittest.TestCase):
             dormir(10),
             'Ptz! Dormi muito! Estou atrasado para o trabalho'
         )
+
+    def test_eh_egracada(self):
+        #self.assertEqual(eh_engracada('Sérgio Malandro'), False)
+        self.assertFalse(eh_engracada('Ségio Malandro'))
+        self.assertTrue(eh_engracada('Jim Carry'), 'Jim Carry deveria se engraçado')
+
 
 
 if __name__ == '__main__':

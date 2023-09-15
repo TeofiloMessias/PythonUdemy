@@ -38,7 +38,7 @@ class Animal:
     def comer(self):
         print(f'{self.__nome} está comendo...')
 
-class Gato(Animal)
+class Gato(Animal):
 
     def __init__(self, nome):
         super().__init__(nome)
